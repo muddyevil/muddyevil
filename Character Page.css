@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* Mobile CSS */
+
+body {
+	background: #97EAD2;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	color: #4B2142;
+}
+
+img {
+	width: 100%;
+}
+
+.photo {
+	width: 75%;
+	padding-left: 12.5%;
+}
+
+.button1 {
+	font-size: 3vw;
+	background: #8CC7a1;
+	width: 75%;
+	margin-left: 11.5%;
+	text-align: center;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+}
+
+.button2 {
+	font-size: 3vw;
+	background: #8CC7a1;
+	width: 75%;
+	margin-left: 11.5%;
+	text-align: center;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+}
+
+.info {
+	background: #816E94;
+	width: 90%;
+	margin: auto;
+	border: thin #74226C solid;
+}
+
+h4 {
+	margin-left: 1vw;
+	text-decoration: underline;
+}
+
+h5 {
+	margin-left: 2vw;
+}
+
+/* Tablet CSS */
+
+@media (min-width: 600px){
+
+body {
+	background: #97EAD2;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	color: #4B2142;
+}
+
+img {
+	width: 100%;
+}
+
+.photo {
+	width: 40%;
+	padding-left: 30%;
+}
+
+.button1 {
+	font-size: 3vw;
+	background: #8CC7a1;
+	width: 35%;
+	margin-left: 11.5%;
+	text-align: center;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+	float: left;
+}
+
+.button2 {
+	font-size: 3vw;
+	background: #8CC7a1;
+	width: 35%;
+	text-align: center;
+	margin-left: 3.75%;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+	float: left;
+}
+
+.info {
+	clear: both;
+}
+}
+
+/* Desktop CSS */
+
+@media (min-width: 768px){
+	
+body {
+	background: #97EAD2;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	color: #4B2142;
+}
+
+img {
+	width: 100%;
+}
+
+.photo {
+	width: 30%;
+	padding-left: 34%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+		
+}
+
+.button1 {
+	font-size: 2vw;
+	background: #8CC7a1;
+	width: 35%;
+	margin-left: 11.5%;
+	text-align: center;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+	float: left;
+}
+
+.button2 {
+	font-size: 2vw;
+	background: #8CC7a1;
+	width: 35%;
+	text-align: center;
+	margin-left: 3.75%;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+	border: thick #97EAD2 solid;
+	float: left;
+}
+
+.info {
+	clear: both;
+}
+	
+}
